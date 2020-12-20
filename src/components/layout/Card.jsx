@@ -7,14 +7,14 @@ export default props => {
     } 
        return(
     <div id="card" className="Card" style= {{
-        borderColor: '#000000'
+        borderColor: '#FB3061'
     }}>
         <div className="Content">
             <button className="button" onClick={()=>TrocaCorFundo()}>Vamos mudar a cor do fundo do card?</button>
             {props.children}
         </div>
         <div className="Footer" style= {{
-                backgroundColor: '#000000'
+                backgroundColor: '#40CDEA'
             }}>
             {props.titulo}
         </div>
